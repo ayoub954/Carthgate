@@ -1,0 +1,23 @@
+# secrets
+.env
+backend/.env
+*.env.local
+
+# python
+__pycache__/
+*.pyc
+backend/venv/
+.pytest_cache/
+
+# local data cache / generated files
+backend/data/cache/
+backend/data/exports/
+backend/data/reports/
+backend/data/*.db
+
+# node
+node_modules/
+frontend/dist/
+
+# auto-generated session signing key (never commit)
+backend/data/.session_secret
